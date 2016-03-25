@@ -400,12 +400,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40D95B4E1C6E2ED800AAF433 /* Build configuration list for PBXNativeTarget "AmethystTests" */;
 			buildPhases = (
-				D8373E3093477B78CFF173B1 /* Check Pods Manifest.lock */,
+				D8373E3093477B78CFF173B1 /* 📦 Check Pods Manifest.lock */,
 				40D95B431C6E2ED800AAF433 /* Sources */,
 				40D95B441C6E2ED800AAF433 /* Frameworks */,
 				40D95B451C6E2ED800AAF433 /* Resources */,
-				A270E0B138303CE2F25D1DEC /* Embed Pods Frameworks */,
-				3D7F1BC5662575C036671422 /* Copy Pods Resources */,
+				A270E0B138303CE2F25D1DEC /* 📦 Embed Pods Frameworks */,
+				3D7F1BC5662575C036671422 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,14 +483,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D7F1BC5662575C036671422 /* Copy Pods Resources */ = {
+		3D7F1BC5662575C036671422 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,14 +537,14 @@
 			shellPath = /bin/sh;
 			shellScript = "source ./bin/CrashlyticsKeys.sh\nif [ -n \"$CRASHLYTICS_API_KEY\" -a -n \"$CRASHLYTICS_APP_KEY\" ]; then\n    ./Fabric.framework/run $CRASHLYTICS_API_KEY $CRASHLYTICS_APP_KEY\n    /usr/libexec/PlistBuddy -c \"Delete Fabric:APIKey\" Amethyst/Amethyst-Info.plist\nfi\n";
 		};
-		A270E0B138303CE2F25D1DEC /* Embed Pods Frameworks */ = {
+		A270E0B138303CE2F25D1DEC /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,14 +552,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmethystTests/Pods-AmethystTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8373E3093477B78CFF173B1 /* Check Pods Manifest.lock */ = {
+		D8373E3093477B78CFF173B1 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
